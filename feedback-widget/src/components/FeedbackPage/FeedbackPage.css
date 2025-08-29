@@ -1,0 +1,41 @@
+/* feedback.css - styling for admin FeedbackPage table */
+
+.feedback-container {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+/* table */
+.feedback-container .MuiTableContainer-root {
+  margin-top: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.feedback-container .MuiTableCell-root {
+  padding: 10px 14px;
+}
+
+/* zebra rows */
+.feedback-container .MuiTableRow-root:nth-of-type(odd) {
+  background: #fafafa;
+}
+
+/* header */
+.feedback-container .MuiTableHead-root .MuiTableCell-root {
+  background: #f3f4f6;
+  font-weight: 700;
+}
+
+/* center the circular loader */
+.feedback-container .MuiCircularProgress-root {
+  display: block;
+  margin: 28px auto;
+}
+
+/* small text style for "Deleted Question" or fallback */
+.feedback-container .deleted-question {
+  font-style: italic;
+  color: #6b7280; /* gray-500 */
+}

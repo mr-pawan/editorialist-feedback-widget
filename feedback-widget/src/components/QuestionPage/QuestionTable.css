@@ -1,0 +1,20 @@
+.question-table-container {
+  padding: 16px;
+}
+
+.table-scroll {
+  max-height: 400px; /* Adjust height for scrolling */
+  overflow-y: auto;
+}
+
+/* keep sticky header visible */
+.MuiTableHead-root {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.css-1gak8h1-MuiToolbar-root-MuiTablePagination-toolbar  {
+    color: black !important;
+}
